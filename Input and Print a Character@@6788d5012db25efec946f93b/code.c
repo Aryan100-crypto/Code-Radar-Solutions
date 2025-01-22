@@ -3,7 +3,7 @@
 
 
 int main() {
-    char a.upper();
+    char a;
     scanf("%c",&a);
     printf("You entered: %s",a);
     
