@@ -4,6 +4,6 @@
 int main() {
     int r;
     scanf("%d",&r);
-    printf("Area: %d",a);
+    printf("Area: %d",r);
     return 0;
 }
