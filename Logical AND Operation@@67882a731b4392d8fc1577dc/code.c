@@ -1,0 +1,13 @@
+//&& operator is the and operator
+//||operator is the or operator
+#include<stdio.h>
+int main(){
+    scanf("%d%d",&a,&b);
+    if(a>0||b>0){
+        print("True");
+    }
+    else{
+        print("False");
+    }
+    return 0;
+}
