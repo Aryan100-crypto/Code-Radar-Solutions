@@ -4,11 +4,11 @@ int main(){
     if(a>b){
         printf("First");
     }
-    else if(b>a){
-        printf("Second");
+    else if(b==a){
+        printf("Equal");
     }
     else{
-        printf("Equal");
+        printf("Second");
     }
     return 0;
 }
