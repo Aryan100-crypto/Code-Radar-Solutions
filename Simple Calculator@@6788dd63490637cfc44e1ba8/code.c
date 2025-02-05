@@ -2,9 +2,9 @@
 
 
 int main() {
-    int a,b;
-    char calculator;
-    scanf("%d %d ",&a,&b);
+    int a,b,calculator;
+    char sign;
+    scanf("%d %d %c",&a,&b,&sign);
     switch(calculator){
         case ('+'):
         printf("%d",a+b);
