@@ -3,6 +3,7 @@
 
 int main() {
     int a,b;
+    char calculator;
     scanf("%d%d",&a,&b);
     switch(calculator){
         case ('+'):
