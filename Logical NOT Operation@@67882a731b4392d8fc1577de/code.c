@@ -1,5 +1,3 @@
-
-//is used in braces before using logical operators like (!())
 #include<stdio.h>
 int main(){
     int a;
