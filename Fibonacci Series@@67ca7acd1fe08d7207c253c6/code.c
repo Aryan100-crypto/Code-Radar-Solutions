@@ -3,7 +3,7 @@
 int fib(int a);
 int main(){
     int res;
-    res=fib(int a);
+    res=fib(a);
     scanf("%d",&a);
     printf("%d",&res);
     return 0;
