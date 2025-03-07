@@ -2,7 +2,7 @@
 #include<stdio.h>
 int fib(int a);
 int main(){
-    int res;
+    int a,res;
     res=fib(a);
     scanf("%d",&a);
     printf("%d",&res);
