@@ -10,7 +10,7 @@ int main(){
 
 }
 int fib(int a){
-    if(k>0){
+    if(a>0){
         return a+fib(a-1);
     }
     else{
