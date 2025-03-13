@@ -1,13 +1,16 @@
 // Your code here...
-#include<stdio.h>
-int main(){
-    int i,j;
-    for(i=i;i<=j){
-        for(j=1;j<=10;j++){
-            printf("%d*%d=%d",i,j,i*j);
+#include <stdio.h>
 
-        }
-        printf("\n");
+int main() {
+    int N, j;
+    
+    // Read input from the user
+    scanf("%d", &N);
+    
+    // Loop to print the multiplication table
+    for (j = 1; j <= 10; j++) {
+        printf("%d * %d = %d\n", N, j, N * j);
     }
+
     return 0;
 }
