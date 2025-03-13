@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-void main(){
+int main(){
     int i,j;
     for(i=1;i<=10;i++){
         for(j=1;j<=10;j++){
@@ -9,4 +9,5 @@ void main(){
         }
         printf("/n");
     }
+    return 0;
 }
