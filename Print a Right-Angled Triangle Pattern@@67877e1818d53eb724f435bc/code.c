@@ -6,7 +6,7 @@ void main() {
     
     for (j = 1; j <= n; j++) {
         for (i = 1; i <= j; i++) {
-            printf("*");
+            printf(" *");
         }
         printf("\n"); // Moved inside the outer loop
     }
