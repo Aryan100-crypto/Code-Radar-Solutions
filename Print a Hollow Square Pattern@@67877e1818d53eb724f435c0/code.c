@@ -12,8 +12,6 @@ void main(){
                 printf("");
             }
         }
-        for(j=1;j<=n;j++){
-            printf("\n");
-        }
+        printf("\n");
     }
 }
