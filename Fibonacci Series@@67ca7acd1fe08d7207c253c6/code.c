@@ -4,7 +4,7 @@ int fib(int n){
         return n;
     }
     else{
-        return (n-1)+(n-2);
+        return fib(n-1)+fib(n-2);
     }
 }
 void main(){
