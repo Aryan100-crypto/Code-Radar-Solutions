@@ -7,8 +7,9 @@ int fib(int n){
         return fib(n-1)+fib(n-2);
     }
 }
-void main(){
+int main(){
     int num;
     scanf("%d",&num);
     printf("%d",fib(num));
+    return 0;
 }
