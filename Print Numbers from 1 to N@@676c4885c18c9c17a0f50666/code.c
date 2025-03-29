@@ -4,8 +4,8 @@ void main(){
     scanf("%d",&n);
     if(i<1){
         printf(" ");
-    }
-    else{do{
+    }else{
+        do{
         printf("%d ",i);
         i++;
     }while(i<=n);
