@@ -2,9 +2,7 @@
 void main(){
     int i,n;
     scanf("%d",&n);
-    for(i=1){
-        printf("n*i = %d",n*i);
-        i++;
+    for(i=1;i<=n;i++){
+        printf("n*%d=%d",i,i*n);
     }
-
 }
