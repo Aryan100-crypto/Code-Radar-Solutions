@@ -2,7 +2,7 @@
 void main(){
     int i;
     do{
-        printf("%d",i);
+        printf("%d\n",i);
         i++;
-    }while(i>1);
+    }while(i>=1);
 }
