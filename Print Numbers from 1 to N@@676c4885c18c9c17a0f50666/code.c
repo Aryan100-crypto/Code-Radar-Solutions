@@ -1,5 +1,8 @@
-// Your code here...
-do{
-    printf("%d",&i);
+#include<stdio.h>
+void main(){
+    int i;
+    do{
+        printf("%d",i);
+        i++;
+    }while(i>1);
 }
-while(i>1;i++);
