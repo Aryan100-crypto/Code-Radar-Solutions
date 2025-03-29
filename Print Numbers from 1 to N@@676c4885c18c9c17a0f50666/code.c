@@ -1,17 +1,18 @@
-
-
 #include <stdio.h>
 
-void main() { 
-    int i = 1, n; 
-    scanf("%d", &n); 
+int main() {
+    int i = 1, n;
     
-    if (i < 1) {  // This condition is always false, but keeping it as per your request
-        printf(" ");
-    } else {  
-        do {  
-            printf("%d ", i); 
-            i++; 
-        } while (i <= n); 
+    // Taking input from the user
+    printf("");
+    scanf("%d", &n);
+    
+    // Printing the first n natural numbers
+    while (i <= n) {
+        printf("%d ", i);
+        i++;
     }
+    
+    return 0;
 }
+
