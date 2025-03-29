@@ -5,8 +5,9 @@ void main(){
     if(i<1){
         printf(" ");
     }
-    do{
+    else{do{
         printf("%d ",i);
         i++;
     }while(i<=n);
+}
 }
