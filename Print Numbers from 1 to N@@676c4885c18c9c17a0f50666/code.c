@@ -2,6 +2,4 @@
 do{
     printf("%d",&i);
 }
-while{
-    i>1,i++;
-}
+while(i>1;i++);
