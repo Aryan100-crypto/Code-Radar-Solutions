@@ -5,5 +5,5 @@ void main(){
     do{
         printf("%d ",i);
         i++;
-    }while(i>=1 && i<=n);
+    }while(i>0 && i<=n);
 }
