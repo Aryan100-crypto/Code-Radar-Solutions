@@ -1,13 +1,28 @@
-// Your code here...
 #include<stdio.h>
-int n,arr[n],i,z=i%2,e=n-z;
-scanf("%d",&n);
-for(i=0;i<=n;i++){
-    arr[i]=i;
-}
-if(i%2==0){
-    printf("%d\t",z);
-}
-else{
-    printf("%d",e);
+void main() {
+    int n, i, odd = 0, even = 0;
+
+    // Input for 'n'
+    printf("Enter the size of the array: ");
+    scanf("%d", &n);
+
+    int arr[n]; // Declare the array
+
+    // Corrected loop for initializing the array
+    for (i = 0; i < n; i++) { // Use i < n to avoid out-of-bounds access
+        arr[i] = i;
+    }
+
+    // Loop to count odd and even numbers
+    for (i = 0; i < n; i++) { // Use i < n for iteration
+        if (arr[i] % 2 == 0) {
+            even++; // Increment even count
+        } else {
+            odd++; // Increment odd count
+        }
+    }
+
+    // Print results outside the loop
+    printf("Even count: %d\n", even);
+    printf("Odd count: %d\n", odd);
 }
