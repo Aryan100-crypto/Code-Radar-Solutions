@@ -23,6 +23,6 @@ void main() {
     }
 
     // Print results outside the loop
-    printf("Even count: %d\n", even);
-    printf("Odd count: %d\n", odd);
+    printf("%d\t", odd);
+    printf("%d", even);
 }
