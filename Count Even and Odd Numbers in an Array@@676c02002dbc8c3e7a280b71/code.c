@@ -23,6 +23,6 @@ void main() {
     }
 
     // Print results outside the loop
-    printf("%d\t", odd);
+    printf("%d", odd);
     printf("%d", even);
 }
