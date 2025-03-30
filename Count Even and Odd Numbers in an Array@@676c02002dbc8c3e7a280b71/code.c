@@ -10,7 +10,7 @@ void main() {
 
     // Corrected loop for initializing the array
     for (i = 0; i < n; i++) { // Use i < n to avoid out-of-bounds access
-        arr[i] = i;
+        arr[i] = i+1;
     }
 
     // Loop to count odd and even numbers
