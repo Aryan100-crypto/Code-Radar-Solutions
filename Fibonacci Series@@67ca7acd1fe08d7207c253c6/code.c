@@ -13,7 +13,10 @@ int fib(int n){
     }
 void main(){
     int num;
-    printf("%d",fib(num));
+    scanf("%d",&num);
+    for(i=0;i<=n;i++){
+        printf("%d",fib(i));
+    }
 }
 
 
