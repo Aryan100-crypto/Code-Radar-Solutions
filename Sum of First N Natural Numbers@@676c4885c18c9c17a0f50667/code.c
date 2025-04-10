@@ -4,7 +4,7 @@ void main(){
     scanf("%d",&n);
     sum=0;
     while(i<=n){
-        sum+=1;
+        sum+=i;
         i++;
         
 
