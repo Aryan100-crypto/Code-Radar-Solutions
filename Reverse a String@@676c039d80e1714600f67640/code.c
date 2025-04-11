@@ -9,7 +9,7 @@ void main(){
     p=strlen(str);
     
     for(i=p-1;i>=0;i--){
-        printf("%c",str[i]);
+        printf("%s",str[i]);
         
         
 
