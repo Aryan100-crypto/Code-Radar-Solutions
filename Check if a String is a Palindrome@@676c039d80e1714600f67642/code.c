@@ -13,7 +13,7 @@ void main(){
         
 
     }
-    if(ispali){
+    if(ispal){
         printf("Yes");
     }
     else{
