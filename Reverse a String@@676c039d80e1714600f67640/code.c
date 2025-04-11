@@ -2,7 +2,7 @@
 void main(){
     char str[35];
 
-    fgets(str);
+    scanf("%s",str);
     puts(str);
 
 
