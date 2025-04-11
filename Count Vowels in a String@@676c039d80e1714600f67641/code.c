@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-    int i,count;
+    int i,count=0;
     char str[35];
     scanf("%s",str);
     for(i=0;str[i]!='\0';i++){
