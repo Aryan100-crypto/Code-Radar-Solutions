@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main(){
     char str[35];
-    
-    gets(str);
+
+    fgets(str);
     puts(str);
 
 
