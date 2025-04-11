@@ -1,27 +1,23 @@
-#include<stdio.h>
-#include<string.h>
-void main(){
-    int i=0,len,j=0,lenn,count=0;
-    char str="aeiou";
 
+    #include <stdio.h>
+#include <string.h>
 
-    char strr[35];
-    
-    scanf("%s",strr);
-    len=strlen(strr);
-    lenn=strlen(str);
-    for(i<=len+1;i>=0;i++){
-        for(j<=lenn+1;j>=0;j++){
-            while(str[i]!=str[j]){
+void main() {
+    int i = 0, j = 0, lenn = 0, count = 0;
+    char str[] = "aeiou";      // Vowels list
+    char strr[35];             // Input string
+
+    scanf("%s", strr);         // Read input string
+    lenn = strlen(strr);       // Length of input string
+
+    for (i = 0; i < lenn; i++) {              // Loop through input string
+        for (j = 0; j < 5; j++) {             // Loop through vowel list
+            if (strr[i] == str[j]) {          // If character matches a vowel
                 count++;
-                
-                
+                break;                        // Avoid double counting
             }
         }
-        
-
-
     }
-    printf("%d",count);
+
+    printf("%d", count);                      // Output total vowel count
 }
-    
