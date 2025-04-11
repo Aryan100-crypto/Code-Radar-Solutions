@@ -1,10 +1,19 @@
 #include<stdio.h>
+//strlen function is the part of string.h library
+#include<string.h>
 void main(){
+    int p,i;
     char str[10];
     scanf("%s",str);
 
+    p=strlen(str);
     
-    puts(str);
+    for(i=p-1;i>=0;i--){
+        printf("%s",str);
+        
+
+
+    }
 
 
 }
