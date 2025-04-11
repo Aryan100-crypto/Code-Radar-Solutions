@@ -1,8 +1,9 @@
 #include<stdio.h>
 void main(){
-    char str[35];
+    char str[10];
+    gets(str);
 
-    scanf("%s",str);
+    
     puts(str);
 
 
